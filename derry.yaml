@@ -1,0 +1,24 @@
+format:
+  - dart format lib .
+  - flutter pub run import_sorter:main
+  - flutter format lib
+
+watch: flutter pub run build_runner watch --delete-conflicting-outputs
+
+auto_gen:
+  - flutter packages pub run build_runner build --delete-conflicting-outputs
+
+gen:
+  - flutter pub get
+  - flutter packages pub run build_runner build --delete-conflicting-outputs
+
+start_ios:
+  - xcrun simctl list
+  - open /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/
+
+run_dev:
+  - flutter run
+
+clean:
+  - flutter clean
+  - flutter pub get

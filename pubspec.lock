@@ -7,14 +7,14 @@ packages:
       name: _fe_analyzer_shared
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "40.0.0"
+    version: "38.0.0"
   analyzer:
     dependency: transitive
     description:
       name: analyzer
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.1.0"
+    version: "3.4.1"
   args:
     dependency: transitive
     description:
@@ -35,7 +35,14 @@ packages:
       name: auto_route
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "4.0.1"
+    version: "3.2.4"
+  auto_route_generator:
+    dependency: "direct dev"
+    description:
+      name: auto_route_generator
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "3.2.3"
   boolean_selector:
     dependency: transitive
     description:
@@ -387,6 +394,13 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
+  source_gen:
+    dependency: transitive
+    description:
+      name: source_gen
+      url: "https://pub.dartlang.org"
+    source: hosted
+    version: "1.2.2"
   source_span:
     dependency: transitive
     description:

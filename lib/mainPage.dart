@@ -12,15 +12,6 @@ class MainPage extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     return AutoTabsScaffold(
-      drawer: Drawer(
-        child: Column(
-          children: const [
-            Text('test1'),
-            Text('test2'),
-            Text('test3'),
-          ],
-        ),
-      ),
       routes: const [
         ArticleRoute(),
         FavoriteRoute(),

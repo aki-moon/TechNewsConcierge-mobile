@@ -10,14 +10,8 @@ class FavoritePage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blueGrey,
-        title: const Text("お気に入りページ"),
-        actions: <Widget>[
-          IconButton(
-            icon: const Icon(Icons.home),
-            onPressed: () {},
-          ),
-        ],
+        backgroundColor: Colors.blue,
+        title: const Text("お気に入り"),
       ),
       body: const Text('お気に入りした記事の一覧がここに表示される予定です'),
     );

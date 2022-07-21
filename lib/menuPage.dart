@@ -10,14 +10,8 @@ class MenuPage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.blue,
         title: const Text("メニュー"),
-        actions: <Widget>[
-          IconButton(
-            icon: const Icon(Icons.home),
-            onPressed: () {},
-          ),
-        ],
       ),
       body: const Text('メニュー画面がここに表示される予定です'),
     );

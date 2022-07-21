@@ -11,14 +11,8 @@ class ArticlePage extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blueGrey,
+        backgroundColor: Colors.blue,
         title: const Text("記事の閲覧ページ"),
-        actions: <Widget>[
-          IconButton(
-            icon: const Icon(Icons.home),
-            onPressed: () {},
-          ),
-        ],
       ),
       body: _widgetContent(context, ref),
     );

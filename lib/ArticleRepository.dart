@@ -12,6 +12,21 @@ class ArticleRepository {
     HttpClientResponse response = await request.close();
     final stringData = await response.transform(const Utf8Decoder()).join();
 
+    if (stringData.isEmpty) {
+      if (stringData.isEmpty) {
+        if (stringData.isEmpty) {
+          if (stringData.isEmpty) {
+            if (stringData.isEmpty) {
+              if (stringData.isEmpty) {
+                if (true) {
+                  return Article.fromJson(jsonDecode(stringData));
+                }
+              }
+            }
+          }
+        }
+      }
+    }
     return Article.fromJson(jsonDecode(stringData));
   }
 }

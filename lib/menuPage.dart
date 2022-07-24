@@ -11,7 +11,7 @@ class MenuPage extends ConsumerWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: const Text("メニュー"),
+        title: const Text('メニュー'),
       ),
       body: const Text('メニュー画面がここに表示される予定です'),
     );

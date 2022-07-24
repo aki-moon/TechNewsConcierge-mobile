@@ -13,14 +13,14 @@ class ArticlePage extends ConsumerWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: const Text("記事の閲覧ページ"),
+        title: const Text('記事の閲覧ページ'),
       ),
       body: _widgetContent(context, ref),
     );
   }
 
   Widget _widgetContent(BuildContext context, WidgetRef ref) {
-    Future<Article> article = ArticleRepository().find("dummy id");
+    final article = ArticleRepository().find('dummy id');
 
     return FutureBuilder(
       future: article,
@@ -65,7 +65,7 @@ class ArticlePage extends ConsumerWidget {
         const SizedBox(
           height: 12,
         ),
-        TextButton(onPressed: () => {}, child: const Text("記事を読む")),
+        TextButton(onPressed: () => {}, child: const Text('記事を読む')),
         const SizedBox(
           height: 12,
         ),

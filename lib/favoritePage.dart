@@ -11,7 +11,7 @@ class FavoritePage extends ConsumerWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: const Text("お気に入り"),
+        title: const Text('お気に入り'),
       ),
       body: const Text('お気に入りした記事の一覧がここに表示される予定です'),
     );

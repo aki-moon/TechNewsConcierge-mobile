@@ -1,11 +1,23 @@
 // ignore_for_file: file_names
 
-class Article {
-  final String id;
-  final String publishDate;
-  final String title;
-  final String description;
-  final String link;
+import 'package:flutter/foundation.dart';
+import 'package:freezed_annotation/freezed_annotation.dart';
 
-  Article(this.id, this.publishDate, this.title, this.description, this.link);
+part 'article.freezed.dart';
+part 'article.g.dart';
+
+@freezed
+class Article with _$Article {
+  const factory Article({
+    @Default('--') String id,
+    @Default('--') String publishDate,
+    @Default('--') String title,
+    @Default('--') String description,
+    @Default('--') String link,
+  }) = _Article;
+
+  factory Article.fromJson(
+    Map<String, dynamic> json,
+  ) =>
+      _$ArticleFromJson(json);
 }

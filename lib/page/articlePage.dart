@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:technewsconciergemobile2/repository/articleRepository.dart';
 import 'package:technewsconciergemobile2/dto/article.dart';
+import 'package:technewsconciergemobile2/repository/articleRepository.dart';
 
 class ArticlePage extends ConsumerWidget {
   const ArticlePage({Key? key}) : super(key: key);

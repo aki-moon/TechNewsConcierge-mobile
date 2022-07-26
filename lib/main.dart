@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:technewsconciergemobile2/router.dart';
-import 'package:technewsconciergemobile2/router.gr.dart';
+import 'package:technewsconciergemobile2/router/router.dart';
+import 'package:technewsconciergemobile2/router/router.gr.dart';
 
 final _appRouter = MainRouter();
 

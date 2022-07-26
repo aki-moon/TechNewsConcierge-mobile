@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:technewsconciergemobile2/ArticleRepository.dart';
+import 'package:technewsconciergemobile2/repository/articleRepository.dart';
 import 'package:technewsconciergemobile2/dto/article.dart';
 
 class ArticlePage extends ConsumerWidget {

@@ -2,10 +2,10 @@
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:technewsconciergemobile2/articlePage.dart';
-import 'package:technewsconciergemobile2/favoritePage.dart';
-import 'package:technewsconciergemobile2/mainPage.dart';
-import 'package:technewsconciergemobile2/menuPage.dart';
+import 'package:technewsconciergemobile2/page/articlePage.dart';
+import 'package:technewsconciergemobile2/page/favoritePage.dart';
+import 'package:technewsconciergemobile2/page/mainPage.dart';
+import 'package:technewsconciergemobile2/page/menuPage.dart';
 
 class MainRouteObserver extends AutoRouterObserver {
   @override

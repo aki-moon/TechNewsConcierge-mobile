@@ -3,7 +3,7 @@
 import 'dart:convert';
 import 'dart:io';
 
-import 'package:technewsconciergemobile2/article.dart';
+import 'package:technewsconciergemobile2/dto/article.dart';
 
 class ArticleRepository {
   Future<Article> find(String id) async {

@@ -18,9 +18,9 @@ class ButtomNavigationBar extends ConsumerWidget {
           child: Row(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              _iconButton(context, ref, 0, Icons.home),
-              _iconButton(context, ref, 1, Icons.favorite),
-              _iconButton(context, ref, 2, Icons.menu),
+              _iconButton(context, 0, Icons.home),
+              _iconButton(context, 1, Icons.favorite),
+              _iconButton(context, 2, Icons.menu),
             ],
           ),
         ),
@@ -30,7 +30,6 @@ class ButtomNavigationBar extends ConsumerWidget {
 
   Widget _iconButton(
     BuildContext context,
-    WidgetRef ref,
     int index,
     IconData icon,
   ) {

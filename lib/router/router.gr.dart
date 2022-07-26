@@ -12,10 +12,10 @@
 
 import 'package:auto_route/auto_route.dart' as _i2;
 import 'package:flutter/material.dart' as _i6;
-import 'package:technewsconciergemobile2/page/articlePage.dart' as _i3;
-import 'package:technewsconciergemobile2/page/favoritePage.dart' as _i4;
-import 'package:technewsconciergemobile2/page/mainPage.dart' as _i1;
-import 'package:technewsconciergemobile2/page/menuPage.dart' as _i5;
+import 'package:technewsconciergemobile2/page/article_page.dart' as _i3;
+import 'package:technewsconciergemobile2/page/favorite_page.dart' as _i4;
+import 'package:technewsconciergemobile2/page/main_page.dart' as _i1;
+import 'package:technewsconciergemobile2/page/menu_page.dart' as _i5;
 
 class MainRouter extends _i2.RootStackRouter {
   MainRouter([_i6.GlobalKey<_i6.NavigatorState>? navigatorKey])

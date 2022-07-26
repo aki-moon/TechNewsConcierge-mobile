@@ -1,11 +1,9 @@
-// ignore_for_file: file_names
-
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:technewsconciergemobile2/page/articlePage.dart';
-import 'package:technewsconciergemobile2/page/favoritePage.dart';
-import 'package:technewsconciergemobile2/page/mainPage.dart';
-import 'package:technewsconciergemobile2/page/menuPage.dart';
+import 'package:technewsconciergemobile2/page/article_page.dart';
+import 'package:technewsconciergemobile2/page/favorite_page.dart';
+import 'package:technewsconciergemobile2/page/main_page.dart';
+import 'package:technewsconciergemobile2/page/menu_page.dart';
 
 class MainRouteObserver extends AutoRouterObserver {
   @override
